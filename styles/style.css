@@ -1,0 +1,19 @@
+table {
+	vertical-align: center;
+	border: 1px solid black;
+	width: 500px
+	height: 500px;
+}
+
+/*tr {
+	width: 10vw;
+	//height: 10vw;
+}
+*/
+td {
+	width: 10vw;
+	height: 10vw;
+	border: thick;
+	background-color: rgb(222,184,135);
+	text-align: center;
+}
