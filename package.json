@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/josephquested/Mest/issues"
   },
-  "homepage": "https://github.com/josephquested/Mest#readme"
+  "homepage": "https://github.com/josephquested/Mest#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "express": "^4.13.4",
+    "supertest": "^1.1.0",
+    "tape": "^4.4.0",
+    "nodemon": "^1.8.1"
+  }
 }
