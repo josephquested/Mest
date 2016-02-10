@@ -1,7 +1,9 @@
-var app = require('./server')
+import $ from 'jquery'
 
-var port = process.env.PORT || 3000
+const tester = () => {
+  console.log('test')
+}
 
-app.listen(port, function () {
-  console.log('Server running on port %d', port)
+$(() => {
+  tester()
 })
