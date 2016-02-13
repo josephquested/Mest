@@ -1,13 +1,14 @@
 'use strict'
 
 import request from 'supertest'
+import test from 'tape'
+import getBoard from '../client/ajax.js'
 
-let test = require('tape')
-let app = require('../client/ajax.js')
+console.log(getBoard)
 
 test('Read Table Data', function (t) {
-  request(app)
-    .get('/')
+  request(getBoard)
+    .get('http://localhost:3000/table_0_0')
     .expect('Content-Type', /json/)
     .expect(200)
     .end((err, res) => {
